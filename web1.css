@@ -1,0 +1,31 @@
+.bgi1{background-image: url(pic/home-new-bg-free-img.jpg);
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+.bgi2{background-image: url(pic/women-fashion-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+
+.bgi3{background-image: url(pic/men-fashion-free-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+
+.bgi4{background-image: url(pic/footwear-free-img.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            }
+    
+.b{
+    background-color: rgba(0, 0, 0, 0.708);
+    
+}
+
+       
+    

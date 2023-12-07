@@ -27,5 +27,12 @@ background-size: cover;
     
 }
 
-       
-    
+       .mybx{
+        margin-left: -30px;
+       }
+    @media(max-width:700px) {
+        .mybx{
+            margin-left: 0px;
+           }
+        
+    }

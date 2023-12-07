@@ -28,11 +28,30 @@ background-size: cover;
  }
     
 .b{
-    background-color: rgba(0, 0, 0, 0.708);
+    background-color: rgba(0, 0, 0, 0.422);
     
 }
 
-       .mybx{
+.q{
+    color:black;
+}
+.q:hover{
+    color:#0075cd;
+}
+
+.qq{
+    color:rgba(0, 0, 0, 0.597);
+}
+.qq:hover{
+    color:#0075cd;
+}
+
+
+
+
+
+
+        .mybx{
         margin-left: -30px;
        }
     @media(max-width:700px) {

@@ -29,12 +29,17 @@ background-size: cover;
  }
 
  
- .bgi5{background-image: url(pic/banner-04.jpg);
+ .bgi6{background-image: url(pic/banner-04.jpg);
     background-attachment: fixed;
     background-size: cover;
  }
 
- 
+ .bgi7{background-image: url(pic/banner-05.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+ }
+
+
  
 .b{
     background-color: rgba(0, 0, 0, 0.365);

@@ -39,6 +39,12 @@ background-size: cover;
     background-size: cover;
  }
 
+ .bgi8{background-image: url(pic/banner-06.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+ }
+
+
 
  
 .b{

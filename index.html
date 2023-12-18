@@ -249,10 +249,15 @@
         </p>
         </div>
 
-        <div class="col-md-3 col-6"><img src="pic/sports-shoe3.jpg" alt="" class="col-md-12 col-12">
+        <div class="col-md-3 col-6"><img src="pic/sports-shoe3.jpg" alt="" class="col-md-12 col-12" id="ab">
           <h5>DNK Blue Shoes</h5>
           <p>Men</p>
           <p>$200.00 – $240.00</p>
+          <button onclick="document.getElementById('ab').src='pic/sports-shoe1.jpg'" style="height: 20px;width: 10%; background-color: #1e73be; border-radius: 100%; border: none;"></button>
+
+          <button onclick="document.getElementById('ab').src='pic/sports-shoe4.jpg'" style="height: 20px;width: 10%; background-color: #81d742; border-radius: 100%;border: none;"></button>
+
+          <button onclick="document.getElementById('ab').src='pic/sports-shoe2.jpg'" style="height: 20px;width: 10%; background-color: #ce592f; border-radius: 100%;border: none;"></button>
           <p><i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
@@ -315,11 +320,17 @@
 
          <div class="col-md-12">
        
-        <img src="pic/product-bag3.jpg" alt="" class="col-md-9 col-12 ms-md-3 ms-0"> 
+        <img src="pic/product-bag3.jpg" alt="" class="col-md-9 col-12 ms-md-3 ms-0" id="i3"> 
   <div class="col-md-12 ms-md-3 ms-0">
             <h6>Bright Red Bag</h6>
             <p>Accessories</p>
             <p>$100.00-$140.00</p>
+
+            <button style="height: 20px;width: 8%; background-color: #ce25e8; border-radius: 100%; border: none;" onclick="i4()" ></button>
+            <button style="height: 20px;width: 8%; background-color: #1e73be; border-radius: 100%; border: none;" onclick="i5()" ></button>
+            <button style="height: 20px;width: 8%; background-color: #f49922; border-radius: 100%; border: none;" onclick="i6()" ></button>
+
+
             <p><i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
               <i class="fa-regular fa-star"></i>
@@ -345,23 +356,41 @@
         </div>
 
         <div class="col-md-3 col-6">
-          <img src="pic/product-accessory2.jpg" alt="" class="col-md-12 col-12">
+          <img src="pic/product-accessory2.jpg" alt="" class="col-md-12 col-12" id="ac">
           <h5>Anchor Bracelet</h5>
           <p>Accessories</p>
           <p>$150.00 – $180.00</p>
+
+            <button onclick="document.getElementById('ac').src='pic/product-accessory2.jpg'" style="height: 20px;width: 10%; background-color: #000000; border-radius: 100%; border: none;"></button>
+
+            <button onclick="document.getElementById('ac').src='pic/product-accessory2-b-300x300.jpg'" style="height: 20px;width: 10%; background-color: #aa7627; border-radius: 100%; border: none;"></button>
+
+            <button onclick="document.getElementById('ac').src='pic/product-accessory2-c-300x30d0.jpg'" style="height: 20px;width: 10%; background-color: #ce592f; border-radius: 100%; border: none;"></button>
+
+
           <p><i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
           </p>
+
         </div>  
         
         <div class="col-md-3 col-6">
-        <img src="pic/product-accessory1.jpg" alt="" class="col-md-12 col-12">
+        <img src="pic/product-accessory1.jpg" alt="" class="col-md-12 col-12" id="i2">
           <h5>Boho Bangle Bracelet</h5>
           <p>Accessories</p>
           <p>$150.00-$170.00</p>
+
+         <button style="height: 20px;width: 10%; background-color: #81d742; border-radius: 100%; border: none;" onclick="i1()" ></button>
+
+         <button style="height: 20px;width: 10%; background-color: #ce592f; border-radius: 100%; border: none;" onclick="i2()" ></button>
+
+         <button style="height: 20px;width: 10%; background-color: #1fb1c1; border-radius: 100%; border: none;" onclick="i3()" ></button>
+
+
+
           <p><i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
@@ -423,7 +452,7 @@
             <div class="col-md-3"> 
             <center> 
                <img src="pic/globe-free-img.png" alt="" class="col-md-3 col-2">
-              <h4 class="mt-3 class="mt-3"">Worldwide Shipping</h4>
+              <h4 class="mt-3">Worldwide Shipping</h4>
               <p class="mt-3">It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 
             </center>
@@ -532,6 +561,40 @@
 
 
    
+<script>
+
+  function i1(){
+    document.getElementById('i2').src="pic/product-accessory1-c-300x300.jpg";
+  }
+
+  function i2(){
+    document.getElementById('i2').src="pic/product-accessory1-b-300x300.jpg";
+  }
+
+  function i3(){
+    document.getElementById('i2').src="pic/product-accessory1.jpg";
+  }
+
+
+  
+  function i4(){
+    document.getElementById('i3').src="pic/product-bag3-b-300x300.jpg";
+  }
+
+  function i5(){
+    document.getElementById('i3').src="pic/product-bag3-c-300x300.jpg";
+  }
+
+  function i6(){
+    document.getElementById('i3').src="pic/product-bag3-d-300x300.jpg";
+  }
+
+
+
+</script>
+
+</script>
+
 
   
 </body>
